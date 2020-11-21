@@ -1,0 +1,16 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-reference": false,
+        "semicolon": true,
+        "ban-types": [
+            true,
+            ["Promise", "message"]
+        ]
+    },
+    "rulesDirectory": []
+}

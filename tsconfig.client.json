@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "types": ["lua-types/5.2"],
+    "target": "esnext",
+    "lib": ["esnext"],
+    "typeRoots": ["node_modules"],
+    "rootDirs": ["src/client"],
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "tstl": {
+    "luaTarget": "5.2",
+    "luaLibImport": "require"
+  },
+  "include": ["src/client"]
+}
