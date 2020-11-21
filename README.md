@@ -13,6 +13,8 @@ git, node.js , npm 필수
 `npm run install`
 
 ### 빌드
+src폴더안의 타입스크립트가
+dist폴더안에 `_script.lua`, `_client.lua` 파일로 변환됩니다.
 
 #### 서버
 `npm run build-server`
@@ -21,4 +23,4 @@ git, node.js , npm 필수
 `npm run build-client`
 
 #### 서버&클라
-`npm run build-client`
+`npm run build`
