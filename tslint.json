@@ -5,6 +5,7 @@
     ],
     "jsRules": {},
     "rules": {
+        "typedef": [true, "call-signature"],
         "no-reference": false,
         "semicolon": true,
         "ban-types": [

@@ -1,9 +1,8 @@
-// 서버 선언파일 참조
-///<reference path="../../declation/Server.d.ts" />
+import { logger } from './logger/logger';
 
 import config from './config/config';
 
-
+// 데미지 콜백 예제
 try {
     Server.damageCallback = (a, b, _skillId, critical, visible) => {
         // 데미지 계산 (공격자의 공격력 - 방어자의 방어력)
@@ -17,7 +16,9 @@ try {
         return [damage, critical, visible];
     };
 } catch (error) {
-    print(error);
+    logger.error(error);
 }
+
+
 
 

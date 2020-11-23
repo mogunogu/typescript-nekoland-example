@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "types": ["lua-types/5.2"],
+      "types": ["lua-types/5.2", "@kumaya1109/nekoland-server-types"],
       "target": "esnext",
       "lib": ["esnext"],
       "typeRoots": ["node_modules"],

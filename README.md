@@ -24,3 +24,4 @@ dist폴더안에 `_script.lua`, `_client.lua` 파일로 변환됩니다.
 
 #### 서버&클라
 `npm run build`
+
