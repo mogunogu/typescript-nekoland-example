@@ -11,7 +11,8 @@
     },
     "tstl": {
       "luaTarget": "5.2",
-      "luaLibImport": "require"
+      "luaLibImport": "require",
+      "noImplicitSelf": false
     },
     "include": ["src/server"]
   }
