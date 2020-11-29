@@ -3,6 +3,8 @@
 ## 개발환경 
 git, node.js , npm 필수
 
+[node.js다운로드](https://nodejs.org/en/download/)
+[git다운로드](https://git-scm.com/downloads)
 
 ### 프로젝트 복사
 `git clone https://github.com/mogunogu/typescript-nekoland-example.git example_project`
