@@ -7,11 +7,7 @@
     "rules": {
         "typedef": [true, "call-signature"],
         "no-reference": false,
-        "semicolon": true,
-        "ban-types": [
-            true,
-            ["Promise", "message"]
-        ]
+        "semicolon": true
     },
     "rulesDirectory": []
 }
